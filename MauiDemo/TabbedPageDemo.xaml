@@ -5,7 +5,7 @@
              Title="TabbedPageDemo">
     <ContentPage Title="Page 1" 
                  BackgroundColor="BlanchedAlmond"
-                 IconImageSource="">
+                 IconImageSource="soccer_ball.svg">
         <Label Text="Page 1"
                FontSize="Large"
                HorizontalTextAlignment="Center"

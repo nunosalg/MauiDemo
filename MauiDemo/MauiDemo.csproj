@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\soccer_ball.svg" />
 	  <None Remove="Resources\Images\social_media_like.svg" />
 	  <None Remove="Resources\Images\twitter.svg" />
 	</ItemGroup>
