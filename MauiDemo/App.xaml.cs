@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MyPage());
+            MainPage = new NavigationPage(new FlexLayoutDemo());
         }
     }
 }
