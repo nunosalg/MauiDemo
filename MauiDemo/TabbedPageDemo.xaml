@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.TabbedPageDemo"
+             Title="TabbedPageDemo">
+    <ContentPage Title="Page 1" 
+                 BackgroundColor="BlanchedAlmond"
+                 IconImageSource="">
+        <Label Text="Page 1"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Page 2" 
+                 BackgroundColor="CadetBlue"
+                 IconImageSource="twitter.svg">
+        <Label Text="Page 2"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Page 3" 
+                 BackgroundColor="Yellow"
+                 IconImageSource="social_media_like.svg">
+        <Label Text="Page 3"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Page 4"
+                 IconImageSource="dotnet_bot.png">
+        <Label Text="Page 4"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+    </ContentPage>
+
+</TabbedPage>
